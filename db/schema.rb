@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(version: 2020_06_23_162732) do
     t.string "name"
     t.string "team"
     t.string "city"
+    t.string "division"
     t.integer "capacity"
     t.string "logo"
     t.string "image"

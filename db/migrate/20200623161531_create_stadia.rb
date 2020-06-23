@@ -4,6 +4,7 @@ class CreateStadia < ActiveRecord::Migration[6.0]
       t.string :name
       t.string :team
       t.string :city
+      t.string :division
       t.integer :capacity
       t.string :logo
       t.string :image
