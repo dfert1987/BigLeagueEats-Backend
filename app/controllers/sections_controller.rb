@@ -12,6 +12,6 @@ class SectionsController < ApplicationController
 
     private
     def stadium_params
-        params.require(:section).permit(:name, :stadium_id, :image)
+        params.require(:section).permit(:name, :stadium, :image)
     end
 end

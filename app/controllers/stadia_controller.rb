@@ -1,7 +1,7 @@
 class StadiaController < ApplicationController
     def index
-        @stadiums = Stadium.all
-        render json: @stadiums
+        @stadia = Stadium.all
+        render json: @stadia
     end
 
     def show
