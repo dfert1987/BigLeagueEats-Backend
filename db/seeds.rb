@@ -1,7 +1,57 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+wrigley = Stadia.create(name: "Wrigley Field", team: "Cubs", city: "Chicago", capacity: 41649, logo:"https://i.ya-webdesign.com/images/chicago-cubs-logo-png-transparent-7.png", image:"https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1193&h=625&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F39%2F2018%2F04%2F20222934%2F103219363_w.jpg")
+coors = Stadia.create(name: "Coors Field", team: "Rockies", city: "Denver", capacity: 50398, logo:"https://www.vhv.rs/dpng/d/35-357298_colorado-rockies-logo-transparent-hd-png-download.png", image:"https://media-cdn.tripadvisor.com/media/photo-m/1280/14/11/a0/d8/imag1087-largejpg.jpg")
+
+# sections coors 
+Section.create(name: "Leftfield Bleachers", stadia_id: 2)
+Section.create(name: "Rock Pile", stadia_id: 2)
+Section.create(name: "Rightfield Mezzanine", stadia_id: 2)
+Section.create(name: "Rooftop", stadia_id: 2)
+Section.create(name: "Rightfield Deep", stadia_id: 2)
+Section.create(name: "Rightfield Bleachers", stadia_id: 2)
+Section.create(name: "Upper Corner", stadia_id: 2)
+Section.create(name: "Rightfield Box", stadia_id: 2)
+Section.create(name: "1st Base Box", stadia_id: 2)
+Section.create(name: "Homeplate Box", stadia_id: 2)
+Section.create(name: "Coors Club", stadia_id: 2)
+Section.create(name: "3rd Base Box", stadia_id: 2)
+Section.create(name: "Leftfield Box", stadia_id: 2)
+Section.create(name: "Leftfield Club Level", stadia_id: 2)
+Section.create(name: "Leftfield Upperdeck Deep", stadia_id: 2)
+Section.create(name: "Leftfield Upperdeck", stadia_id: 2)
+Section.create(name: "Home Plate Upperdeck", stadia_id: 2)
+Section.create(name: "Rightfield Upperdeck", stadia_id: 2)
+Section.create(name: "Rightfield Upperdeck Deep", stadia_id: 2)
+
+
+# sections wrigley
+Section.create(name:"Rightfield Bleachers", stadia_id:1)
+Section.create(name:"Centerfield Bleachers", stadia_id:1)
+Section.create(name:"Leftfield Bleachers", stadia_id:1)
+Section.create(name:"Far Rightfield Bleachers", stadia_id:1)
+Section.create(name:"Far Leftfield Bleachers", stadia_id:1)
+Section.create(name:"Rightfield Bleachers", stadia_id:1)
+Section.create(name:"Rightfield Box", stadia_id:1)
+Section.create(name:"Rightfield Terrace", stadia_id:1)
+Section.create(name:"Leftfield Terrace", stadia_id:1)
+Section.create(name:"Rightfield Club Box", stadia_id:1)
+Section.create(name:"3rd Base Club Box", stadia_id:1)
+Section.create(name:"1st Base Club Box", stadia_id:1)
+Section.create(name:"Leftfield Box", stadia_id:1)
+Section.create(name:"Leftfield Club Box", stadia_id:1)
+Section.create(name:"Club Home Plate Box", stadia_id:1)
+Section.create(name:"Home Plate Box", stadia_id:1)
+Section.create(name:"1st Base Box", stadia_id:1)
+Section.create(name:"3rd Base Box", stadia_id:1)
+Section.create(name:"Club Home Plate Box", stadia_id:1)
+Section.create(name:"Infield Terreace Left", stadia_id:1)
+Section.create(name:"Infield Terrace Right", stadia_id:1)
+Section.create(name:"Home Plate Luxury Suites", stadia_id:1)
+Section.create(name:"Upper Deck Right Infield", stadia_id:1)
+Section.create(name:"Upper Deck Right Outfield", stadia_id:1)
+Section.create(name:"Upper Deck Left Infield", stadia_id:1)
+Section.create(name:"Upper Deck Left Outfield", stadia_id:1)
+
+
+
+
+

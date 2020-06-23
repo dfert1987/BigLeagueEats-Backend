@@ -3,7 +3,7 @@ class CreateSections < ActiveRecord::Migration[6.0]
     create_table :sections do |t|
       t.string :name
       t.string :image
-      t.references :stadium, null: false, foreign_key: true
+      t.references :stadia, null: false, foreign_key: true
 
       t.timestamps
     end
