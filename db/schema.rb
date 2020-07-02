@@ -24,12 +24,12 @@ ActiveRecord::Schema.define(version: 2020_06_23_162732) do
   end
 
   create_table "sections", force: :cascade do |t|
-    t.string "name"
+    t.integer "number"
     t.string "image"
-    t.integer "stadia_id", null: false
+    t.integer "stadium_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["stadia_id"], name: "index_sections_on_stadia_id"
+    t.index ["stadium_id"], name: "index_sections_on_stadium_id"
   end
 
   create_table "stadia", force: :cascade do |t|
@@ -45,5 +45,5 @@ ActiveRecord::Schema.define(version: 2020_06_23_162732) do
   end
 
   add_foreign_key "restaurants", "sections"
-  add_foreign_key "sections", "stadia", column: "stadia_id"
+  add_foreign_key "sections", "stadia"
 end

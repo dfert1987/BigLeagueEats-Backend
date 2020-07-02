@@ -2,7 +2,7 @@ class SectionsController < ApplicationController
 
     def index
         @sections = Section.all
-        render json: @sections
+        render json: @sections, include: [:stadium]
     end
 
     def show
@@ -12,6 +12,6 @@ class SectionsController < ApplicationController
 
     private
     def stadium_params
-        params.require(:section).permit(:name, :stadium, :image)
+        params.require(:section).permit(:number, :image, :stadium_id)
     end
 end
