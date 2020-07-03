@@ -67,7 +67,13 @@ Section.create(number:10, image: "https://aviewfrommyseat.com/medium/anonymous-2
 Section.create(number:12, image: "https://aviewfrommyseat.com/thumb/anonymous-20160718091542.jpg",stadium_id: 1)
 Section.create(number:13, image: "https://aviewfrommyseat.com/medium/melsg66-20190825171954.jpg",stadium_id: 1)
 
-
-
+Restaurant.create(name: "Hot Doug's", description: "One of Chicago's most famous wiener stands, is best known for it's unique sausages, and duck fat fries in addition to it's perfect Chicago Dog.", mainCategory: "Sausages", subCategory: "Classic Ballpark Fare", localSpecialty: true, image: "https://ballparkeguides.com/wp-content/uploads/2018/01/Hot-Dougs-Logo.png", section_id: 9 )
+Restaurant.create(name: "Giordano's", description: "Giordano's is one of Chicago's biggest names Deepdish. Hope you wore stretchy pants.", mainCategory: "Food", subCategory: "Pizza", localSpecialty: true, image: "https://ballparkeguides.com/wp-content/uploads/2016/12/Giordanos-Sign.jpg", section_id: 9 )
+Restaurant.create(name: "Third Base Lunchette", description: "From the classic Italian to more unique offerings like their beer can chicken sandwich, this subshop does offers a lot of variety on a hoagie roll.", mainCategory: "Food", subCategory: "Subs/Sandwiches", localSpecialty: false, image: "https://ballparkeguides.com/wp-content/uploads/2019/09/Joe-Maddon-Hoagie-Levy-UWP.png", section_id: 9 )
+Restaurant.create(name: "Lucky Dorr", description: "Brand new craft beer hub for wrigleyville hop-heads.", mainCategory: "Drink", subCategory: "Beer", localSpecialty: false, image: "https://cdn.vox-cdn.com/thumbor/jNRj0HmEt_vUnzaxOhopwQjx-z4=/0x0:2000x1333/1520x1013/filters:focal(1585x414:1905x734):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/55644233/Lucky_Dorr_Interior_Wide.0.jpg", section_id: 9 )
+Restaurant.create(name: "Portables", description: "Your one stop shop for all things cocktail.", mainCategory: "Drink", subCategory: "Cocktails", localSpecialty: false, image: "https://ballparkdigest.com/wp-content/uploads/2018/04/wrigleyfield2018-2.jpg", section_id: 9 )
+Restaurant.create(name: "Buona Beef", description: "One of the best spots in the city for Chicago's meaty, spicy, signature sandwich!", mainCategory: "Food", subCategory: "Subs/Sandwiches", localSpecialty: true, image: "https://raster-static.postmates.com/?url=com.postmates.img.prod.s3.amazonaws.com/808eb5e0-239b-4bf5-a500-06cda35cd0a1/orig.jpg&quality=90&w=1500&h=900&mode=crop&format=jpg&v=4", section_id: 5 )
+Restaurant.create(name: "Pork & Mindy’s", description: "Quirky BBQ stand that specializes in all things pig related.", mainCategory: "Food", subCategory: "BBQ", localSpecialty: true, image: "https://porkandmindys.com/wp-content/uploads/2018/02/Elevate-Food.jpg", section_id: 5 )
+Restaurant.create(name: "Bleacher Bum's", description: "Craft cocktail hot spot serving the North Sides thirstiest fans, with unique concoctions like the Chicago Dog Bloody Mary.", mainCategory: "Drink", subCategory: "Cocktails", localSpecialty: true, image: "https://pbs.twimg.com/media/Ce5nxYFUMAAiFrm?format=jpg&name=large", section_id: 5 )
 
 

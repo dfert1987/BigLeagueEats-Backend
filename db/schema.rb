@@ -15,7 +15,9 @@ ActiveRecord::Schema.define(version: 2020_06_23_162732) do
   create_table "restaurants", force: :cascade do |t|
     t.string "name"
     t.text "description"
-    t.string "foodstyle"
+    t.string "mainCategory"
+    t.string "subCategory"
+    t.boolean "localSpecialty"
     t.string "image"
     t.integer "section_id", null: false
     t.datetime "created_at", precision: 6, null: false
